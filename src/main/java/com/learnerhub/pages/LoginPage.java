@@ -31,5 +31,11 @@ public class LoginPage extends ProjectHooks{
 		reportStep("Login button clicked successfully", "pass");
 		return new DashboardPage();
 	}
+	
+	public ForgotPasswordPage clickForgotPassword() {
+		click(locateElement(Locators.XPATH, "//a[text()='Forgot Password?']"));
+		reportStep("Forgot Password link clicked successfully", "pass");
+		return new ForgotPasswordPage();
+	}
 
 }
