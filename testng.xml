@@ -5,5 +5,5 @@
     <classes>
       <class name="com.learnerhub.testcases.TC001_JustLogin"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test S-->
 </suite> <!-- Suite -->
