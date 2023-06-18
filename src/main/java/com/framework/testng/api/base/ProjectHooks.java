@@ -27,7 +27,7 @@ public class ProjectHooks extends SeleniumBase {
 		}
 		System.out.println("Application URL: " +appUrl);
 		
-		startApp("chrome", true, appUrl);
+		startApp(browser, true, appUrl);
 		setNode();
 	}
 	

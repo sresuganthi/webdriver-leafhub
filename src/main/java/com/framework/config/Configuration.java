@@ -51,5 +51,8 @@ public interface Configuration extends Config {
 
 	 @Key("faker.locale")
 	 String faker();
+	 
+	 @Key("selenium.grid.url")
+	 String gridURL();
 
 }

@@ -14,6 +14,7 @@ public class TC002_Register extends ProjectHooks{
 		testDescription ="Register a new user";
 		authors="Babu";
 		category ="Smoke";
+		browser = "firefox";
 	}
 	
 	@Test

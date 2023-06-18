@@ -27,7 +27,7 @@ public abstract class ExtentReporter extends DriverInstance {
 	private static final ThreadLocal<String> testName = new ThreadLocal<String>();
 	
 	private String fileName = "result.html";
-	public String testcaseName, testDescription, authors, category, dataFileName, dataFileType, excelFileName;
+	public String testcaseName, testDescription, authors, category, dataFileName, dataFileType, excelFileName, browser;
 	public static String folderName = "";
 
 	@BeforeSuite(alwaysRun = true)

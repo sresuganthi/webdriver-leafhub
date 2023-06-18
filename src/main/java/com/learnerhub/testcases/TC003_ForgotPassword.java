@@ -15,6 +15,7 @@ public class TC003_ForgotPassword extends ProjectHooks{
 		testDescription ="Reset password for existing user";
 		authors="Babu";
 		category ="Smoke";
+		browser = "msedge";
 	}
 	
 	@Test
